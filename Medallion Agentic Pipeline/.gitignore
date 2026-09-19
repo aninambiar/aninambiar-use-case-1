@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.pytest_cache/
+
+# Generated pipeline data (kept locally, not committed)
+data/bronze/*
+data/silver/*
+data/gold/*
+data/sttm/*
+data/profiles/*
+data/reports/*
+data/traces/*
+data/audit/*
+!data/**/.gitkeep
+
+# Editor
+.vscode/

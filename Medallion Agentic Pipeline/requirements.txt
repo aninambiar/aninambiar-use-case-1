@@ -1,0 +1,27 @@
+# --- Orchestration / Agent Framework ---
+langchain>=0.2,<0.4
+langgraph>=0.2,<0.4
+langchain-core>=0.2
+
+# --- LLM Providers ---
+langchain-groq>=0.1.9          # Groq (llama3-8b-8192, mixtral-8x7b-32768)
+langchain-google-genai>=1.0.10 # Google Gemini
+langchain-anthropic>=0.1.23    # Anthropic Claude
+langchain-openai>=0.1.20       # OpenAI-compatible client, used for GitHub Models
+
+# --- UI ---
+streamlit>=1.32
+
+# --- Data Processing ---
+pandas>=2.2
+pyarrow>=16.0
+numpy>=1.26
+
+# --- Analytics / SQL ---
+duckdb>=0.10
+
+# --- Charts ---
+plotly>=5.22
+
+# --- Config / Utilities ---
+python-dotenv>=1.0
